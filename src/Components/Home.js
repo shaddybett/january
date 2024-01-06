@@ -1,10 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
     <div>
-      <h1>Good to see you!</h1>
-      <a href='About'>about</a>
+
+      <Link to="/about">About</Link>
+      <h1>Sign up or log in</h1>
     </div>
-  )
+  );
 }

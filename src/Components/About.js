@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
     <div>
-        <h1>Hello this is about</h1>
-        <a href='/home'>Home</a>
-        <a href='/prime'>Prime</a>
+      <Link to="/home">Home</Link>
+      <Link to="/prime">Prime</Link>
+      <h1>Hello this is about</h1>
     </div>
-  )
+  );
 }

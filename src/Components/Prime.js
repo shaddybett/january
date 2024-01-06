@@ -1,10 +1,11 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Prime() {
   return (
     <div>
-        <h1>Hello this is prime</h1>
-        <a href='home'>Home</a>
+      <Link to="/about">About</Link>
+      <h1>Hello u the best!</h1>
     </div>
-  )
+  );
 }
